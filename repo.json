@@ -1,0 +1,43 @@
+{
+  "name": "Nebula Official Repo",
+  "version": 1,
+  "description": "The official high-speed movie and anime sources for Nebula.",
+  "extensions": [
+    {
+      "id": "vidsrc_me",
+      "name": "VidSrc PRO",
+      "baseUrl": "https://vidsrc.me",
+      "version": 2,
+      "type": "MOVIE",
+      "extractorType": "recursive_iframe",
+      "search": {
+        "path": "/embed/movie/{tmdb_id}",
+        "selector": "iframe",
+        "mapping": { "title": "VidSrc", "link": "src" }
+      }
+    },
+    {
+      "id": "sflix_to",
+      "name": "SFlix",
+      "baseUrl": "https://sflix.to",
+      "version": 5,
+      "type": "TV_SHOW",
+      "search": {
+        "path": "/search/{query}",
+        "selector": ".flw-item",
+        "mapping": {
+          "title": ".film-name a",
+          "link": ".film-name a",
+          "poster": "img.film-poster-img"
+        }
+      },
+      "detail": {
+        "selector": ".movie-detail-all",
+        "mapping": {
+          "description": ".description",
+          "episodes": ".nav-item a[data-id]"
+        }
+      }
+    }
+  ]
+}
