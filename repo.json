@@ -1,43 +1,97 @@
 {
   "name": "Nebula Official Repo",
-  "version": 1,
-  "description": "The official high-speed movie and anime sources for Nebula.",
+  "description": "Curated collection of free, no-login streaming sources",
+  "manifestVersion": 1,
   "extensions": [
     {
-      "id": "vidsrc_me",
-      "name": "VidSrc PRO",
-      "baseUrl": "https://vidsrc.me",
-      "version": 2,
+      "id": "com.nebula.fmovies",
+      "name": "fmovies",
+      "baseUrl": "https://www.fmovies.gd",
+      "version": 1,
       "type": "MOVIE",
-      "extractorType": "recursive_iframe",
-      "search": {
-        "path": "/embed/movie/{tmdb_id}",
-        "selector": "iframe",
-        "mapping": { "title": "VidSrc", "link": "src" }
-      }
+      "language": "English",
+      "status": "Online"
     },
     {
-      "id": "sflix_to",
-      "name": "SFlix",
-      "baseUrl": "https://sflix.to",
-      "version": 5,
-      "type": "TV_SHOW",
-      "search": {
-        "path": "/search/{query}",
-        "selector": ".flw-item",
-        "mapping": {
-          "title": ".film-name a",
-          "link": ".film-name a",
-          "poster": "img.film-poster-img"
-        }
-      },
-      "detail": {
-        "selector": ".movie-detail-all",
-        "mapping": {
-          "description": ".description",
-          "episodes": ".nav-item a[data-id]"
-        }
-      }
+      "id": "com.nebula.xprime",
+      "name": "XPrime",
+      "baseUrl": "https://www.xprime.su",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.rive",
+      "name": "Rive",
+      "baseUrl": "https://rivestream.net",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.nepu",
+      "name": "NEPU (4K)",
+      "baseUrl": "https://nepu.to",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.showbox",
+      "name": "showbox",
+      "baseUrl": "https://www.showbox.media/",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.flixer",
+      "name": "Flixer",
+      "baseUrl": "https://flixer.su",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.flixzy",
+      "name": "flixzy",
+      "baseUrl": "https://flixzy.pages.dev",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.kaido",
+      "name": "kaido (Anime)",
+      "baseUrl": "https://kaido.to/",
+      "version": 1,
+      "type": "ANIME",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.animepahe",
+      "name": "animepahe",
+      "baseUrl": "https://animepahe.si/",
+      "version": 1,
+      "type": "ANIME",
+      "language": "English",
+      "status": "Online"
+    },
+    {
+      "id": "com.nebula.dramacool",
+      "name": "Dramacool",
+      "baseUrl": "https://dramacool-l.fun/",
+      "version": 1,
+      "type": "MOVIE",
+      "language": "Various",
+      "status": "Online"
     }
   ]
 }
