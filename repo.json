@@ -42,7 +42,7 @@
     {
       "id": "com.nebula.showbox",
       "name": "showbox",
-      "baseUrl": "https://www.showbox.media/",
+      "baseUrl": "https://www.showbox.media",
       "version": 1,
       "type": "MOVIE",
       "language": "English",
@@ -69,7 +69,7 @@
     {
       "id": "com.nebula.kaido",
       "name": "kaido (Anime)",
-      "baseUrl": "https://kaido.to/",
+      "baseUrl": "https://kaido.to",
       "version": 1,
       "type": "ANIME",
       "language": "English",
@@ -78,7 +78,7 @@
     {
       "id": "com.nebula.animepahe",
       "name": "animepahe",
-      "baseUrl": "https://animepahe.si/",
+      "baseUrl": "https://animepahe.si",
       "version": 1,
       "type": "ANIME",
       "language": "English",
@@ -87,7 +87,7 @@
     {
       "id": "com.nebula.dramacool",
       "name": "Dramacool",
-      "baseUrl": "https://dramacool-l.fun/",
+      "baseUrl": "https://dramacool-l.fun",
       "version": 1,
       "type": "MOVIE",
       "language": "Various",
