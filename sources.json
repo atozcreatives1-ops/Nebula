@@ -1,0 +1,48 @@
+{
+  "version":1,
+  "sources": [
+    {
+      "id": "superstream",
+      "name": "SuperStream (4K/1080p)",
+      "baseUrl": "https://showbox.shegu.net",
+      "type": "MOVIE_TV",
+      "priority": 1
+    },
+    {
+      "id": "vidsrc",
+      "name": "VidSrc (Aggregator)",
+      "baseUrl": "https://vidsrc.me",
+      "mirrors": ["https://vidsrc.to", "https://v2.vidsrc.me"],
+      "type": "MOVIE_TV",
+      "priority": 2
+    },
+    {
+      "id": "sflix",
+      "name": "SFlix (English Content)",
+      "baseUrl": "https://sflix.to",
+      "type": "MOVIE_TV",
+      "priority": 3
+    },
+    {
+      "id": "pstream",
+      "name": "PStream (Mirror)",
+      "baseUrl": "https://upstream.to",
+      "type": "MOVIE_TV",
+      "priority": 4
+   },
+   {
+      "id": "zoro",
+      "name": "Zoro (AniWatch)",
+      "baseUrl": "https://aniwatch.to",
+      "type": "ANIME",
+      "priority": 1
+    },    
+    {
+      "id": "gogoanime",
+      "name": "GogoAnime (Fallback)",
+      "baseUrl": "https://gogoanime3.co",
+      "type": "ANIME",
+      "priority": 2
+    }
+  ]
+}
