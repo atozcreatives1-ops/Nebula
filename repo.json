@@ -31,18 +31,18 @@
       "status": "Online"
     },
     {
-      "id": "com.nebula.nepu",
-      "name": "NEPU (4K)",
-      "baseUrl": "https://nepu.to",
+      "id": "com.nebula.vidlink",
+      "name": "vidlink (4K)",
+      "baseUrl": "https://vidlink.pro",
       "version": 1,
       "type": "MOVIE",
       "language": "English",
       "status": "Online"
     },
     {
-      "id": "com.nebula.showbox",
-      "name": "showbox",
-      "baseUrl": "https://www.showbox.media",
+      "id": "com.nebula.vixsrc",
+      "name": "vixsrc",
+      "baseUrl": "https://vixsrc.to",
       "version": 1,
       "type": "MOVIE",
       "language": "English",
